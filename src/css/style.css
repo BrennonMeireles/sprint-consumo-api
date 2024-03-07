@@ -23,7 +23,7 @@ nav > h2 {
 
 body {
     background-color: black;
-    background-image: url('/src/img/analytics-3088958_1280\ 1.svg');
+    background-image: url('/src/img/background-img.png');
 }
 
 body {
@@ -39,21 +39,112 @@ h1, h2, h3, h4, p {
 h4{
     font-weight: 1;
     font-size: 24px;
-    
+    padding-top: 124px;
+
 }
 
 h1 {
     font-size: 124px;
+    padding-top: 25px;
 }
 
 p{
     font-weight: 300;
+    font-size: 24px;
+    padding-top: 24px;
 }
 
 .titulo {
     text-align: center;
 }
 
-body img {
-    margin-top: 100px;
+.text-box {
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 800px;
+
 }
+
+/* estilo do botão */
+
+.bn5 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+  .bn5:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingbn5 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowingbn5 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .bn5:active {
+    color: #000;
+  }
+  
+  .bn5:active:after {
+    background: transparent;
+  }
+  
+  .bn5:hover:before {
+    opacity: 1;
+  }
+  
+  .bn5:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #191919;
+    border-radius: 10px;
+  }
+
+
