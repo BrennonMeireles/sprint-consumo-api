@@ -27,7 +27,7 @@ body {
 }
 
 body {
-    background-size: cover; /* para cobrir todo o corpo */
+    background-size: 100%; /* para cobrir todo o corpo */
     background-repeat: no-repeat;
     /* background-attachment: fixed; /* para fixar a imagem enquanto você rola */
 }
@@ -62,7 +62,15 @@ p{
     font-weight: 300;
     font-size: 24px;
     padding-top: 800px;
+    margin-left: 200px;
+    margin-right: 200px;
 
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px;
 }
 
 /* estilo do botão */
@@ -79,7 +87,7 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
 }
   
@@ -97,6 +105,7 @@ p{
       #ff00c8,
       #ff0000
     );
+
     position: absolute;
     top: -2px;
     left: -2px;
@@ -108,7 +117,7 @@ p{
     animation: glowingbn5 20s linear infinite;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
+    border-radius: 30px;
   }
   
   @keyframes glowingbn5 {
@@ -144,7 +153,7 @@ p{
     top: 0;
     left: 0;
     background: #191919;
-    border-radius: 10px;
+    border-radius: 30px;
   }
 
 
