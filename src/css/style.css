@@ -156,12 +156,11 @@ a {
     border-radius: 30px;
   }
 
-.text-data {
+  .text-data {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start; /* Alinhar os itens à esquerda */
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Alterando para uma coluna para centralizar o conteúdo verticalmente */
+    align-items: center; /* Centralizando o conteúdo verticalmente */
+    justify-content: center; /* Centralizando o conteúdo horizontalmente */
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 100px;
@@ -170,10 +169,9 @@ a {
     width: 800px;
     height: 100%;
     border-radius: 30px;
-
     background-image: url(/src/img/Rectangle\ 1.png);
     background-repeat: no-repeat;
-  }
+}
 
 input {
     width: 600px;
