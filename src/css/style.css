@@ -1,12 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
+    
+}
+
+nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav > h2 {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 body {
     background-color: black;
+    background-image: url('/src/img/analytics-3088958_1280\ 1.svg');
 }
 
-h1,h2,h3,h4 {
+body {
+    background-size: cover; /* para cobrir todo o corpo */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; /* para fixar a imagem enquanto você rola */
+}
+
+h1, h2, h3, h4, p {
     color: white;
+}
+
+h4{
+    font-weight: 1;
+    font-size: 24px;
+    
+}
+
+h1 {
+    font-size: 124px;
+}
+
+p{
+    font-weight: 300;
+}
+
+.titulo {
+    text-align: center;
+}
+
+body img {
+    margin-top: 100px;
 }
