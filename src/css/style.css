@@ -4,11 +4,9 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    
 }
 
 nav{
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -27,9 +25,8 @@ body {
 }
 
 body {
-    background-size: 100%; /* para cobrir todo o corpo */
+    background-size: 100%;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; /* para fixar a imagem enquanto você rola */
 }
 
 h1, h2, h3, h4, p {
@@ -158,8 +155,8 @@ a {
 
   .text-data {
     display: flex;
-    flex-direction: column; /* Alterando para uma coluna para centralizar o conteúdo verticalmente */
-    align-items: center; /* Centralizando o conteúdo verticalmente */
+    flex-direction: column;  /* Alterando para uma coluna para centralizar o conteúdo verticalmente */
+    align-items: center;     /* Centralizando o conteúdo verticalmente */
     justify-content: center; /* Centralizando o conteúdo horizontalmente */
     margin-left: 350px;
     margin-right: 350px;
@@ -184,14 +181,12 @@ input {
     background-color: #383838;
     color: white;
     font-size: 24px;
-    /* border-radius: 5px; */
-
 }
 
 label {
     color: white;
     order: -1;
-    margin-bottom: 5px; /* Adiciona margem inferior para separar o rótulo do input */
+    margin-bottom: 5px;
     font-size: 36px;
     font-family: "Inter", sans-serif; 
 }
@@ -212,5 +207,3 @@ li{
   
   justify-content: flex-end;
 }
-
-
