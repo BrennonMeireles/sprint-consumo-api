@@ -177,18 +177,28 @@ input {
     width: 600px;
     height: 20px;
     margin: 10px;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #383838;
+    color: white;
+    font-size: 24px;
+    /* border-radius: 5px; */
+
 }
 
 label {
     color: white;
     order: -1;
     margin-bottom: 5px; /* Adiciona margem inferior para separar o rótulo do input */
-    font-size: 24px;
+    font-size: 36px;
     font-family: "Inter", sans-serif; 
 }
 
 ul {
-  margin-top: 30px;
+  margin-top: 50px;
+
 }
 
 li{
