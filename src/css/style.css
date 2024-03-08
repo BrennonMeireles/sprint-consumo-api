@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+<<<<<<< HEAD
     
 }
 
@@ -19,6 +20,8 @@ nav{
 nav > h2 {
     font-size: 48px;
     font-weight: bolder;
+=======
+>>>>>>> a09b6518d3006dc78bbc625246929249055cadff
 }
 
 body {
@@ -26,6 +29,7 @@ body {
     background-image: url('/src/img/background-img.png');
 }
 
+<<<<<<< HEAD
 body {
     background-size: 100%; /* para cobrir todo o corpo */
     background-repeat: no-repeat;
@@ -204,3 +208,65 @@ li{
 }
 
 
+=======
+h1,h2,h3,h4, p {
+    color: white;
+}
+
+nav{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* width: 100%; */
+}
+
+a {
+    color: white;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+
+h4{
+    font-weight: 1;
+    text-align: center;
+    font-size: 24px;
+}
+
+h1{
+    text-align: center;
+    font-size: 148px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+} */
+>>>>>>> a09b6518d3006dc78bbc625246929249055cadff
