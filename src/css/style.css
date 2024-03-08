@@ -5,11 +5,13 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
+=======
+>>>>>>> 1eec8d86866a125e8829a869c148c010328bbdfa
 }
 
 nav{
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -31,9 +33,8 @@ body {
 
 <<<<<<< HEAD
 body {
-    background-size: 100%; /* para cobrir todo o corpo */
+    background-size: 100%;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; /* para fixar a imagem enquanto você rola */
 }
 
 h1, h2, h3, h4, p {
@@ -162,8 +163,8 @@ a {
 
   .text-data {
     display: flex;
-    flex-direction: column; /* Alterando para uma coluna para centralizar o conteúdo verticalmente */
-    align-items: center; /* Centralizando o conteúdo verticalmente */
+    flex-direction: column;  /* Alterando para uma coluna para centralizar o conteúdo verticalmente */
+    align-items: center;     /* Centralizando o conteúdo verticalmente */
     justify-content: center; /* Centralizando o conteúdo horizontalmente */
     margin-left: 350px;
     margin-right: 350px;
@@ -181,18 +182,26 @@ input {
     width: 600px;
     height: 20px;
     margin: 10px;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #383838;
+    color: white;
+    font-size: 24px;
 }
 
 label {
     color: white;
     order: -1;
-    margin-bottom: 5px; /* Adiciona margem inferior para separar o rótulo do input */
-    font-size: 24px;
+    margin-bottom: 5px;
+    font-size: 36px;
     font-family: "Inter", sans-serif; 
 }
 
 ul {
-  margin-top: 30px;
+  margin-top: 50px;
+
 }
 
 li{
@@ -205,6 +214,7 @@ li{
   display: flex;
   
   justify-content: flex-end;
+<<<<<<< HEAD
 }
 
 
@@ -270,3 +280,6 @@ header img {
     z-index: 1; 
 } */
 >>>>>>> a09b6518d3006dc78bbc625246929249055cadff
+=======
+}
+>>>>>>> 1eec8d86866a125e8829a869c148c010328bbdfa
