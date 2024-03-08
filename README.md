@@ -10,7 +10,7 @@ Este é um projeto desenvolvido como parte do curso de Fundamentos da API do SEN
 
 ## 🌐 API de Informações de IP
 
-Para este projeto, utilizamos a [API de Informações de IP](https://apiip.com/) para obter dados sobre endereços IP. A API fornece informações detalhadas sobre o IP fornecido, incluindo localização, provedor de internet e muito mais.
+Para este projeto, utilizamos a [API de Informações de IP](https://apiip.net/) para obter dados sobre endereços IP. A API fornece informações detalhadas sobre o IP fornecido, incluindo localização, provedor de internet e muito mais.
 
 ## 🎨 Design no Figma
 
