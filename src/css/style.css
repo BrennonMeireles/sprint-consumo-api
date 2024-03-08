@@ -87,6 +87,8 @@ a {
     z-index: 1;
     border-radius: 30px;
     text-align: center;
+    width: 200px;
+    height: 60px;
 }
   
   .bn5:before {
@@ -214,13 +216,11 @@ h1,h2,h3,h4, p {
 }
 
 nav{
-    /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
     padding-left: 150px;
     padding-right: 150px;
-    /* width: 100%; */
 }
 
 a {
