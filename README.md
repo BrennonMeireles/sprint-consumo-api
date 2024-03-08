@@ -17,8 +17,6 @@ Para este projeto, utilizamos a [API de Informações de IP](https://apiip.com/)
 O design do projeto foi elaborado utilizando o Figma, uma ferramenta de design colaborativo baseada na web. Você pode visualizar o design do projeto [aqui](https://www.figma.com/file/7ecxqoUxnPp6Xa8QCBJG1Z/sprint-api?type=design&node-id=0%3A1&mode=design&t=5P3eV8bBHI4oSihx-1).
 
 ## 💻 Tecnologias Utilizadas
-
-- **Frontend**:
   - JavaScript
   - HTML
   - CSS
