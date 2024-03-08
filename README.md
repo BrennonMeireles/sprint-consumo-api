@@ -1,4 +1,4 @@
-# 🔍 SearchIP - Website
+## SearchIP - Website
 
 Este é um projeto desenvolvido como parte do curso no SENAI. O propósito deste projeto é compreender os conceitos fundamentais de APIs e sua implementação, utilizando ferramentas como JavaScript, HTML e CSS.
 
