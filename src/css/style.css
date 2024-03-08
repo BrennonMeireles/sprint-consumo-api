@@ -24,7 +24,6 @@ body {
     background-image: url('/src/img/background-img.png');
 }
 
-
 body {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -87,8 +86,6 @@ a {
     z-index: 1;
     border-radius: 30px;
     text-align: center;
-    width: 200px;
-    height: 60px;
 }
   
   .bn5:before {
@@ -211,50 +208,53 @@ li{
   justify-content: flex-end;
 }
 
+
+
+
 h1,h2,h3,h4, p {
-    color: white;
+  color: white;
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
-a {
-    color: white;
-    font-size: 48px;
-    text-decoration: none;
+.nav_text {
+  color: white;
+  font-size: 48px;
+  text-decoration: none;
 }
 
 
 h4{
-    font-weight: 1;
-    text-align: center;
-    font-size: 24px;
+  font-weight: 1;
+  text-align: center;
+  font-size: 24px;
 }
 
 h1{
-    text-align: center;
-    font-size: 148px;
-    font-weight: bold;
-    z-index: 1;
+  text-align: center;
+  font-size: 148px;
+  font-weight: bold;
+  z-index: 1;
 }
 
 p{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 300;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 header img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
