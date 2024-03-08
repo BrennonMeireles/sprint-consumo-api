@@ -4,11 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-=======
->>>>>>> 1eec8d86866a125e8829a869c148c010328bbdfa
 }
 
 nav{
@@ -22,8 +17,6 @@ nav{
 nav > h2 {
     font-size: 48px;
     font-weight: bolder;
-=======
->>>>>>> a09b6518d3006dc78bbc625246929249055cadff
 }
 
 body {
@@ -31,7 +24,7 @@ body {
     background-image: url('/src/img/background-img.png');
 }
 
-<<<<<<< HEAD
+
 body {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -214,11 +207,8 @@ li{
   display: flex;
   
   justify-content: flex-end;
-<<<<<<< HEAD
 }
 
-
-=======
 h1,h2,h3,h4, p {
     color: white;
 }
@@ -268,18 +258,3 @@ header img {
     object-fit: cover;
     z-index: -1;
 }
-
-/* header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 1; 
-} */
->>>>>>> a09b6518d3006dc78bbc625246929249055cadff
-=======
-}
->>>>>>> 1eec8d86866a125e8829a869c148c010328bbdfa
