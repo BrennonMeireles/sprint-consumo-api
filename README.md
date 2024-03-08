@@ -2,9 +2,7 @@
 
 Este é um projeto desenvolvido como parte do curso no SENAI. O propósito deste projeto é compreender os conceitos fundamentais de APIs e sua implementação, utilizando ferramentas como JavaScript, HTML e CSS.
 
-![Screenshot do Projeto](![image](https://github.com/BrennonMeireles/sprint-consumo-api/assets/141636246/34225202-262b-4015-b10f-f4c3316280f8))
 ![image](https://github.com/BrennonMeireles/sprint-consumo-api/assets/141636246/f980350f-98a3-4a0c-9e43-0226de798017)
-
 
 ## 🕹️ Funcionalidades
 
