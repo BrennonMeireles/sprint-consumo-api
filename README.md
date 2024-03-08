@@ -4,7 +4,7 @@ Este é um projeto desenvolvido como parte do curso de Fundamentos da API do SEN
 
 ![Screenshot do Projeto](inserir_link_da_imagem)
 
-## 🔍 Funcionalidades
+## 🕹️ Funcionalidades
 
 - **Consulta de Informações de IP**: Os usuários podem inserir um endereço IP na interface do usuário e obter informações detalhadas sobre o IP consultado, como localização geográfica, provedor de internet, entre outros.
 
