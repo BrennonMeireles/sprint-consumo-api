@@ -202,22 +202,16 @@ input {
 }
 
 .response {
+  display: flex;
   width: 600px;
-  height: 20px;
-  margin: 10px;
-  margin: 0;
-  padding: 5px;
-  margin-bottom: 10px;
-  margin-top: 10px;
   background-color: #383838;
   color: white;
   font-size: 24px;
-  
+  text-align: left; 
 }
 
 .titulo p{
   font-size: 25px;
-  font-weight: bolder;
 }
 
 input{
