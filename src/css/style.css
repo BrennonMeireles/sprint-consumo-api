@@ -80,8 +80,7 @@ a {
     background: #111;
     cursor: pointer;
     position: absolute;
-    top: 100%;
-    left: 50%;
+    
     transform: translate(-50%, -50%);
     z-index: 1;
     border-radius: 30px;
@@ -153,6 +152,29 @@ a {
     border-radius: 30px;
   }
 
+  .bn-title{
+    top: 100%;
+    left: 50%;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: center; /* Alinha os botões horizontalmente */
+    margin-top: 20px; /* Espaçamento entre o .text-data e os botões */
+    gap: 20px; /* Espaçamento entre os botões */
+}
+
+.buttons-container button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #111;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
   .text-data {
     display: flex;
     flex-direction: column;  /* Alterando para uma coluna para centralizar o conteúdo verticalmente */
@@ -208,9 +230,6 @@ li{
   justify-content: flex-end;
 }
 
-
-
-
 h1,h2,h3,h4, p {
   color: white;
 }
@@ -257,4 +276,27 @@ header img {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+}
+
+
+/* Responsividade */
+
+/* Estilos para telas menores que 600px */
+@media screen and (max-width: 600px) {
+
+}
+
+/* Estilos para telas maiores ou iguais a 768px */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Estilos para telas maiores ou iguais a 992px */
+@media screen and (min-width: 992px) {
+  
+}
+
+/* Estilos para telas maiores ou iguais a 1200px */
+@media screen and (min-width: 1200px) {
+  
 }
