@@ -61,7 +61,6 @@ p{
     padding-top: 800px;
     margin-left: 200px;
     margin-right: 200px;
-
 }
 
 a {
@@ -248,7 +247,6 @@ nav{
   text-decoration: none;
 }
 
-
 h4{
   font-weight: 1;
   text-align: center;
@@ -278,25 +276,219 @@ header img {
   z-index: -1;
 }
 
-
 /* Responsividade */
+/* Estilos para telas maiores ou iguais a 912px */
+@media screen and (max-width: 912px) {
+  p {
+    font-size: 18px;
+  }
 
-/* Estilos para telas menores que 600px */
-@media screen and (max-width: 600px) {
+  .bn-title{
+    top: 40%;
+    left: 50%;
+  }
 
+  .bn5 {
+    padding: 0.6em 3em;
+  }
+
+  .text-data {
+    width: 700px;
+  }
+
+  input {
+    width: 500px;;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .text-box {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 120px;
+  }
+
+  .nav_text {
+    font-size: 48px;
+  }  
 }
 
 /* Estilos para telas maiores ou iguais a 768px */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
+  nav{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .nav_text {
+    font-size: 30px;
+  }
+
+  nav > h2 {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+
+  h4{
+    font-weight: 1;
+    font-size: 20px;
+    padding-top: 80px;
+
+  }
+
+  h1 {
+    font-size: 90px;
+    padding-top: 25px;
+  }
+
+  p{
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 30px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+  }
+
+  .bn-title{
+    top: 50%;
+    left: 50%;
+  }
+
+  .bn5 {
+    padding: 0.4em 1.5em;
+  }
+
+  .text-box {
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .text-data {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+    width: 600px;
+    height: auto;
+  }
+
+  input {
+    width: 450px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  label {
+      font-size: 24px;
+  }
+
+  .buttons-container button {
+    padding: 15px 20px;
+    font-size: 25px;
+  }
 }
 
-/* Estilos para telas maiores ou iguais a 992px */
-@media screen and (min-width: 992px) {
-  
-}
+/* Estilos para telas menores que 600px */
+@media screen and (max-width: 600px) {
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
-/* Estilos para telas maiores ou iguais a 1200px */
-@media screen and (min-width: 1200px) {
-  
+  .nav_text {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  nav > h2 {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+
+  h4{
+    font-weight: 1;
+    font-size: 20px;
+    padding-top: 80px;
+
+  }
+
+  h1 {
+    font-size: 70px;
+    padding-top: 25px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 24px;
+    padding-left: 30px; 
+    padding-right: 30px; 
+  }
+
+  .bn-title{
+    top: 50%;
+    left: 50%;
+  }
+
+  .bn5 {
+    padding: 0.4em 1.5em;
+  }
+
+  .text-box {
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
+
+  .text-data {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+    width: 350px;
+    height: auto;
+  }
+
+  input {
+    width: 250px;
+    height: 20px;
+    margin: 10px;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #383838;
+    color: white;
+    font-size: 20px;
+  }
+
+  label {
+      font-size: 24px;
+  }
+
+  .buttons-container button {
+    padding: 10px 12px;
+    border-radius: 15px;
+    font-size: 16px;
+  }
 }
