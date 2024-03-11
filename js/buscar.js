@@ -34,6 +34,11 @@ function getIpBuscar(callback)
 
 async function getIp(ip){
     const Ip = document.getElementById('ip1');
+    const continente = document.querySelector('.response_continente');
+    const pais = document.querySelector('.response_pais');
+    const capital = document.querySelector('.response_capital');
+    const city = document.querySelector('.response_city');
+    const codigo = document.querySelector('.response_codigo')
 
     Ip.value = ip;
 
@@ -45,5 +50,9 @@ async function getIp(ip){
   
     const result = await response.json();
 
-    console.log(result);
+    continente.innerHTML = `<p>${result.continentName}</p>`
+    pais.innerHTML = `<p>${result.officialCountryName}</p>`
+    capital.innerHTML = `<p>${result.capital}</p>`
+    city.innerHTML = `<p>${result.city}</p>`
+    codigo.innerHTML = `<p>${result.postalCode}</p>`
 }

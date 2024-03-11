@@ -26,5 +26,4 @@ async function getIpInfo(){
     city.innerHTML = `<p>${result.city}</p>`
     codigo.innerHTML = `<p>${result.postalCode}</p>`
 
-
   };
