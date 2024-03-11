@@ -21,7 +21,7 @@
             </p>
         </div>
 
-        <div class="text-box">
+        <div class="text-box" id="text-box">
             <p>
                 Oferecemos uma plataforma para rápida obtenção de informações detalhadas sobre endereços IP.<br>
                 Ao inserir o IP desejado, os usuários têm acesso a dados como provedor de internet, país,
@@ -44,19 +44,25 @@
                     <label for="ip">IP</label>
                 </li>
                 <li>
-                    <input type="text" id="ip">
+                    <div class="response">
+                        <p></p>
+                    </div>
                 </li>
                 <li>
                     <label for="ip">IP</label>
                 </li>
                 <li>
-                    <input type="text" id="ip">
+                    <div class="response">
+                        <p></p>
+                    </div>
                 </li>
                 <li>
                     <label for="ip">IP</label>
                 </li>
                 <li>
-                    <input type="text" id="ip">
+                    <div class="response">
+                        <p></p>
+                    </div>
                 </li>
                 <!-- <li>
                     <label for="">"continentName": "North America",</label>
@@ -128,11 +134,12 @@
             </ul>
             <div class="buttons-container">
                 <button id="pesquisar" class="" onclick="getIpInfo()">pesquisar</button>
-                <button id="buscar-ip" class="">Buscar meu IP</button>
+                <button id="buscar-ip" class="" onclick="getIpBuscar(getIp);">Buscar meu IP</button>
             </div>
         </div>
     </header>
 
     <script src="js/script.js"></script>
+    <script src="js/buscar.js"></script>
 </body>
 </html>

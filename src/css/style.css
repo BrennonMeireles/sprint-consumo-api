@@ -187,7 +187,7 @@ p{
     background-repeat: no-repeat;
 }
 
-input {
+input, .response {
     width: 600px;
     height: 20px;
     margin: 10px;
@@ -198,6 +198,15 @@ input {
     background-color: #383838;
     color: white;
     font-size: 24px;
+}
+
+.titulo p{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+input{
+  letter-spacing: 1px;
 }
 
 label {
