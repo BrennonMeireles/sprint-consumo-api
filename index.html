@@ -30,15 +30,15 @@
             </p>
         </div>
 
-        <button><a href="/" class="bn5 bn-title">Usar  ⬇️</a></button>
+        <button class="bn5 bn-title" onclick="scrolll()">Usar  ⬇️</a></button>
 
-        <div class="text-data">
+        <div class="text-data" id="text-data">
             <ul>
                 <li>
                     <label for="ip">IP</label>
                 </li>
                 <li>
-                    <input type="text" id="ip">
+                    <input type="text" id="ip1">
                 </li>
                 <li>
                     <label for="ip">IP</label>
@@ -127,10 +127,12 @@
                 </li> -->
             </ul>
             <div class="buttons-container">
-                <button id="pesquisar" class="">pesquisar</button>
+                <button id="pesquisar" class="" onclick="getIpInfo()">pesquisar</button>
                 <button id="buscar-ip" class="">Buscar meu IP</button>
             </div>
         </div>
     </header>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

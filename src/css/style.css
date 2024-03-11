@@ -63,15 +63,11 @@ p{
     margin-right: 200px;
 }
 
-a {
-    text-decoration: none;
-    font-size: 24px;
-    padding: 20px;
-}
-
 /* estilo do botão */
 
 .bn5 {
+  font-size: 24px;
+  padding: 20px;
     padding: 0.6em 2em;
     border: none;
     outline: none;
