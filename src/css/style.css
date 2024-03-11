@@ -168,6 +168,7 @@ p{
     cursor: pointer;
     border: none;
     outline: none;
+    margin-top: 50px;
 }
 
   .text-data {
@@ -273,6 +274,18 @@ header img {
 }
 
 /* Responsividade */
+/* Estilos para telas maiores ou iguais a 1300px */
+@media screen and (max-width: 1366px) {
+  .text-data {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .bn-title{
+    top: 125%;
+    left: 50%;
+  }
+}
 /* Estilos para telas maiores ou iguais a 912px */
 @media screen and (max-width: 912px) {
   p {
