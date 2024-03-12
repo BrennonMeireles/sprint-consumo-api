@@ -218,8 +218,9 @@ input {
 label {
     color: white;
     order: -1;
-    font-size: 30px;
+    font-size: 26px;
     font-family: "Inter", sans-serif; 
+    font-size: 24px;
 }
 
 ul {
@@ -427,10 +428,6 @@ header img {
     font-size: 20px;
   }
 
-  label {
-      font-size: 24px;
-  }
-
   .buttons-container button {
     padding: 15px 20px;
     font-size: 25px;
@@ -522,10 +519,6 @@ header img {
     background-color: #383838;
     color: white;
     font-size: 20px;
-  }
-
-  label {
-      font-size: 24px;
   }
 
   .buttons-container button {
