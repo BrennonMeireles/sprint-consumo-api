@@ -23,7 +23,7 @@ O design do projeto foi elaborado utilizando o Figma, uma ferramenta de design c
 
 ## 🛠 Instalação Local
 
-1. Clone o repositório para o seu ambiente local: `git clone https://github.com/seu_usuario/nome_do_projeto.git`
+1. Clone o repositório para o seu ambiente local: `git clone https://github.com/BrennonMeireles/sprint-consumo-api.git`
 2. Navegue até o diretório do projeto.
 3. Abra o arquivo `index.html` em seu navegador web.
 
