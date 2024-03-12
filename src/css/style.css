@@ -302,6 +302,15 @@ header img {
     top: 125%;
     left: 50%;
   }
+
+  .text-data {
+    width: 700px;
+    margin-left: 250px;
+  }
+
+  .response {
+    width: 615px;
+  }
 }
 /* Estilos para telas maiores ou iguais a 912px */
 @media screen and (max-width: 912px) {
@@ -310,7 +319,7 @@ header img {
   }
 
   .bn-title{
-    top: 40%;
+    top: 150%;
     left: 50%;
   }
 
@@ -320,6 +329,7 @@ header img {
 
   .text-data {
     width: 700px;
+    margin-left: 50px;
   }
 
   input {
@@ -339,6 +349,11 @@ header img {
   .nav_text {
     font-size: 48px;
   }  
+
+  .response {
+    width: 515px;
+    font-size: 24px;
+  }
 }
 
 /* Estilos para telas maiores ou iguais a 768px */
@@ -424,6 +439,11 @@ header img {
     padding: 15px 20px;
     font-size: 25px;
   }
+
+  .response {
+    width: 475px;
+    font-size: 24px;
+  }
 }
 
 /* Estilos para telas menores que 600px */
@@ -468,7 +488,7 @@ header img {
   }
 
   .bn-title{
-    top: 50%;
+    top: 100%;
     left: 50%;
   }
 
@@ -491,12 +511,12 @@ header img {
     margin-top: 100px;
     margin-bottom: 100px;
     padding-bottom: 200px;
-    width: 350px;
+    width: 450px;
     height: auto;
   }
 
   input {
-    width: 250px;
+    width: 300px;
     height: 20px;
     margin: 10px;
     margin: 0;
@@ -516,5 +536,10 @@ header img {
     padding: 10px 12px;
     border-radius: 15px;
     font-size: 16px;
+  }
+
+  .response {
+    width: 315px;
+    font-size: 24px;
   }
 }
