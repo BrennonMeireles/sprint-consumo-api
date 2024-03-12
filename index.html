@@ -7,10 +7,12 @@
     <title>SearchIP</title>
 </head>
 <body>
+    <!-- navbar simples -->
     <nav>
         <h2><a href="index.html" class="nav_text">home</a></h2>
         <h2><a href="sobre.html" class="nav_text">sobre</a></h2>
     </nav>
+    <!-- titulo do site -->
     <header>
         <div class="titulo">
             <h4>Introducing</h4>
@@ -20,76 +22,81 @@
                 incluindo localização, provedor de internet e tipo de conexão
             </p>
         </div>
-
-        <div class="text-box" id="text-box">
-            <p>
-                Oferecemos uma plataforma para rápida obtenção de informações detalhadas sobre endereços IP.<br>
-                Ao inserir o IP desejado, os usuários têm acesso a dados como provedor de internet, país,
-                região e cidade. Esta ferramenta proporciona uma visão abrangente do endereço IP, auxiliando
-                  os usuários a compreender melhor sua conexão e localização geográfica.
-            </p>
-        </div>
-
-        <button class="bn5 bn-title" onclick="scrolll()">Usar  ⬇️</a></button>
-
-        <div class="text-data" id="text-data">
-            <ul>
-                <li>
-                    <label for="ip">IP</label>
-                </li>
-                <li>
-                    <input type="text" id="ip1">
-                </li>
-
-                <li>
-                    <label for="ip">CONTINENTE</label>
-                </li>
-                <li>
-                    <div class="response response_continente">
-                        <p></p>
-                    </div>
-                </li>
-                <li>
-                    <label for="ip">NOME OFICIAL DO PAÍS</label>
-                </li>
-                <li>
-                    <div class="response response_pais">
-                        <p></p>
-                    </div>
-                </li>
-                <li>
-                    <label for="ip">CAPITAL DO PAÍS</label>
-                </li>
-                <li>
-                    <div class="response response_capital">
-                        <p></p>
-                    </div>
-                </li>
-                <li>
-                    <label for="ip">CIDADE</label>
-                </li>
-                <li>
-                    <div class="response response_city">
-                        <p></p>
-                    </div>
-                </li>
-                <li>
-                    <label for="ip">CODIGO POSTAL</label>
-                </li>
-                <li>
-                    <div class="response response_codigo">
-                        <p></p>
-                    </div>
-                </li>
-            </ul>
-            <div class="buttons-container">
-                <button id="pesquisar" class="" onclick="getIpInfo()">pesquisar</button>
-                <button id="buscar-ip" class="" onclick="getIpBuscar(getIp);">Buscar meu IP</button>
-            </div>
-        </div>
     </header>
-
-    <script src="/src/js/script.js"></script>
-    <script src="/src/js/buscar.js"></script>
+    <!-- caixa de texto -->
+    <main>
+        <section>
+            <div class="text-box" id="text-box">
+                <p>
+                    Oferecemos uma plataforma para rápida obtenção de informações detalhadas sobre endereços IP.<br>
+                    Ao inserir o IP desejado, os usuários têm acesso a dados como provedor de internet, país,
+                    região e cidade. Esta ferramenta proporciona uma visão abrangente do endereço IP, auxiliando
+                      os usuários a compreender melhor sua conexão e localização geográfica.
+                </p>
+            </div>
+        
+            <button class="bn5 bn-title" onclick="scrolll()">Usar  ⬇️</a></button>
+        </section>
+        <!--aba principal da api-->
+        <section>
+            <div class="text-data" id="text-data">
+                    <ul>
+                        <li>
+                            <label for="ip">IP</label>
+                        </li>
+                        <li>
+                            <input type="text" id="ip1">
+                        </li>
+        
+                        <li>
+                            <label for="ip">CONTINENTE</label>
+                        </li>
+                        <li>
+                            <div class="response response_continente">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="ip">NOME OFICIAL DO PAÍS</label>
+                        </li>
+                        <li>
+                            <div class="response response_pais">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="ip">CAPITAL DO PAÍS</label>
+                        </li>
+                        <li>
+                            <div class="response response_capital">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="ip">CIDADE</label>
+                        </li>
+                        <li>
+                            <div class="response response_city">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="ip">CODIGO POSTAL</label>
+                        </li>
+                        <li>
+                            <div class="response response_codigo">
+                                <p></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="buttons-container">
+                        <button id="pesquisar" class="" onclick="getIpInfo()">pesquisar</button>
+                        <button id="buscar-ip" class="" onclick="getIpBuscar(getIp);">Buscar meu IP</button>
+                    </div>
+                </div>
+            <script src="/src/js/script.js"></script>
+            <script src="/src/js/buscar.js"></script>
+        </section>
+    </main>
 </body>
 </html>
