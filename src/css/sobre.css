@@ -60,3 +60,67 @@ p{
     /* border: 1px solid white; */
 }
 
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    nav {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav > h2 {
+        font-size: 24px;
+    }
+
+    .titulo {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 18px;
+        padding-top: 60px;
+    }
+
+    p {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .sobre {
+        margin: 50px;
+        padding: 30px;
+    }
+}
+
+/* Estilos para telas menores que 600px */
+@media screen and (max-width: 600px) {
+    nav {
+        padding-top: 30px;
+    }
+
+    nav > h2 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 16px;
+        padding-top: 40px;
+    }
+
+    p {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .sobre {
+        margin: 30px;
+        padding: 20px;
+    }
+}
