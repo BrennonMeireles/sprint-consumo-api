@@ -89,13 +89,14 @@ p{
     }
 
     .sobre {
-        margin: 50px;
-        padding: 30px;
+        margin: auto;
+        padding: auto;
     }
 }
 
 /* Estilos para telas menores que 600px */
 @media screen and (max-width: 600px) {
+
     nav {
         padding-top: 30px;
     }
@@ -117,9 +118,14 @@ p{
         font-size: 16px;
         padding-top: 20px;
     }
+    
+    .sobre{
+        padding: auto;
+        margin: auto;
+        border-radius: 30px;
+    }
 
-    .sobre {
-        margin: 30px;
-        padding: 20px;
+    .nav_text {
+        font-size: 30px;
     }
 }
