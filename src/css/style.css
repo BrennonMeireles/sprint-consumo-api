@@ -278,7 +278,7 @@ header img {
   }
 
   .bn-title{
-    top: 125%;
+    top: 80%;
     left: 50%;
   }
 
@@ -353,6 +353,10 @@ header img {
     font-size: 30px;
   }
 
+  .titulo p {
+    font-size: 20px;
+  }
+
   h4{
     font-weight: 1;
     font-size: 20px;
@@ -411,12 +415,15 @@ header img {
 }
 /* Estilos para telas menores que 600px */
 @media screen and (max-width: 600px) {
+
   nav{
-    display: flex;
-    justify-content: space-between;
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .titulo p {
+    font-size: 16px;
   }
 
   .nav_text {
@@ -445,13 +452,10 @@ header img {
   p {
     font-weight: 300;
     font-size: 20px;
-    padding-top: 24px;
-    padding-left: 30px; 
-    padding-right: 30px; 
   }
 
   .bn-title{
-    top: 100%;
+    top: 45%;
     left: 50%;
   }
 
@@ -465,29 +469,23 @@ header img {
     padding-top: 300px;
     margin-left: 50px;
     margin-right: 50px;
-    
   }
 
   .text-data {
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-bottom: 200px;
-    width: 450px;
+    margin: auto;
     height: auto;
+    width: 350px;
   }
 
   input {
-    width: 300px;
+    width: 350px;
     height: 20px;
     margin: 10px;
     margin: 0;
     padding: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
-    background-color: #383838;
-    color: white;
+
     font-size: 20px;
   }
 
@@ -498,7 +496,7 @@ header img {
   }
 
   .response {
-    width: 315px;
+    width: 360px;
     font-size: 24px;
   }
 }
