@@ -44,7 +44,6 @@ h1 {
 p {
     font-weight: 300;
     font-size: 24px;
-    padding-top: 24px;
 }
 
 .titulo {
@@ -150,7 +149,7 @@ p {
   .buttons-container {
     display: flex;
     justify-content: center; /* Alinha os botões horizontalmente */
-    margin-top: 20px; /* Espaçamento entre o .text-data e os botões */
+    /* Espaçamento entre o .text-data e os botões */
     gap: 20px; /* Espaçamento entre os botões */
 }
 
@@ -286,6 +285,7 @@ header img {
   .text-data {
     width: 700px;
     margin-left: 250px;
+    margin: auto;
   }
 
   .response {
@@ -294,12 +294,13 @@ header img {
 }
 /* Estilos para telas maiores ou iguais a 912px */
 @media screen and (max-width: 912px) {
+
   p {
-    font-size: 18px;
+    font-size: 18px;  
   }
 
   .bn-title{
-    top: 150%;
+    top: 75%;
     left: 50%;
   }
 
@@ -308,8 +309,9 @@ header img {
   }
 
   .text-data {
-    width: 700px;
+    max-width: 500px;
     margin-left: 50px;
+    margin: auto;
   }
 
   input {
@@ -320,14 +322,16 @@ header img {
 
   .text-box {
     font-size: 30px;
+    padding-top: 400px;
+
   }
 
   h1 {
-    font-size: 120px;
+    font-size: 100px;
   }
 
-  .nav_text {
-    font-size: 48px;
+  .nav_text a {
+    font-size: 38px;
   }  
 
   .response {
@@ -335,6 +339,7 @@ header img {
     font-size: 24px;
   }
 }
+
 /* Estilos para telas maiores ou iguais a 768px */
 @media screen and (max-width: 768px) {
 
@@ -348,11 +353,6 @@ header img {
     font-size: 30px;
   }
 
-  nav > h2 {
-    font-size: 10px;
-    font-weight: bolder;
-  }
-
   h4{
     font-weight: 1;
     font-size: 20px;
@@ -363,14 +363,6 @@ header img {
   h1 {
     font-size: 90px;
     padding-top: 25px;
-  }
-
-  p{
-    font-weight: 300;
-    font-size: 16px;
-    padding-top: 30px; 
-    padding-left: 30px; 
-    padding-right: 30px; 
   }
 
   .bn-title{
@@ -391,17 +383,14 @@ header img {
   }
 
   .text-data {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-bottom: 200px;
+    margin: auto;
     width: 600px;
     height: auto;
+
   }
 
   input {
-    width: 450px;
+    width: 460px;
     height: 20px;
     margin: 10px;
     padding: 5px;
