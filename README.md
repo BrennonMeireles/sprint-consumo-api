@@ -37,4 +37,4 @@ O design do site foi inspirado no mundo da tecnologia dos IPs, buscando elemento
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, abra uma issue ou envie um pull request.
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, abra uma issue ou envie um pull request. 
